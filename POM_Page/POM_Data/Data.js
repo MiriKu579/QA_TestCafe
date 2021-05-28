@@ -70,3 +70,18 @@ export const ITEMS ={
         ITEM_DESCRIPTION: "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won\'t unravel."
     }
 }
+
+export const DATAUSER ={
+    VALID_DATA:{
+        FIRSTNAME: 'name',
+        LASTNAME: 'lastname',
+        ZIPCODE:'0000',
+        EMAIL:'test@test.com'
+    },
+    NONVALID_DATA:{
+        FIRSTNAME: '+_)(*&^%$##@',
+        LASTNAME: '}{":?></.,\';][=-',
+        ZIPCODE:'',
+        EMAIL:''
+    }
+}
