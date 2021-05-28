@@ -11,10 +11,8 @@ class ShoppingPage{
         this.shoppingheader = Selector('span[class="title"]')  //Your Cart
         this.qty = Selector('#cart_quantity_label') 
         this.description = Selector('#cart_desc_label')
-        this.carContainer = Selector('//*[@id="cart_contents_container"]/div/div[1]/div[4]/div[2]')
-        this.item1 = Selector('div[class="inventory_item_name"]')
-        this.itemDescription1 = Selector('div[class="inventory_item_desc"]') //div[class="inventory_item_desc"]
-
+        // this.carContainer = Selector('//*[@id="cart_contents_container"]/div/div[1]/div[4]/div[2]')
+        this.item = Selector('div[class="cart_list"]')
     }
 
     async shoppingCarPageValidation(){
@@ -32,7 +30,6 @@ class ShoppingPage{
     //     await t.click(this.bikeLight)
     //     await t.click(this.shoppingCartIcon)
     //     await t.expect(this.item.innerText).contains(ITEMS.BIKELIGHT.ITEM_NAME)
-    //     await t.expect(this.itemDescription.innerText).contains(ITEMS.BIKELIGHT.ITEM_DESCRIPTION)
     // }
 }
 
