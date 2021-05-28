@@ -1,0 +1,16 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "This is my first project on TestCafe, Thanks.... Best Regards! Dafne \\n.n/",
+  "main": "index.js",
+  "scripts": {
+    "test-all-ff": "testcafe firefox POM_Page/POM_Tests",
+    "test-login-ff": "testcafe firefox POM_Page/POM_Tests/Login.test.js",
+    "test-shopping-ff": "testcafe firefox POM_Page/POM_Tests/Shopping.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.14.2"
+  }
+}
